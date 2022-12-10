@@ -26,7 +26,7 @@ for (int i = Length; i > 0; i--){
         SubDigits.Add(numberA);
         Amount++;
         Console.WriteLine("Подчисло A " + numberA);
-        if (IsPrime(numberA)){
+        if (IsPrime(numberA)&&numberA != 0){
             Primes++;
             Console.WriteLine(" Простое!");
         }
