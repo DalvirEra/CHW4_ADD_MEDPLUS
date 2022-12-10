@@ -2,6 +2,7 @@
 int N = Convert.ToInt32(Console.ReadLine());
 int Length = IntLength(N);
 int numberA = N, numberB;
+// В Список записываются т.к. удобно следить за дубликатами и просто на будущее использование.
 List<int> SubDigits = new List<int>();
 int Amount = 0;
 int Primes = 0;
